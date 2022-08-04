@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.vimrc
+!*.vim
+!*.bashrc
+!.gitignore
+!README.md
+
+# Add Jira.
+#!.jira.d/
+#!.jira.d/**
+
+# Ignore so we won't commit these in the allowed dirctories.
+#.DS_Store
