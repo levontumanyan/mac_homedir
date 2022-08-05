@@ -1,5 +1,6 @@
 # Ignore everything
-*
+/*
+/*/
 
 # But not these files...
 !*.vimrc
@@ -11,13 +12,14 @@
 
 # Add .config directory for github
 
-!.config
-.config/*
+#!/.config/
+#.config/*
 
-!.config/hb
-.config/hb/*
-!.config/hb/config.yml
-!.config/hb/hosts.yml
+#!.config/hb
+#.config/hb/*
+#!.config/hb/config.yml
+#!.config/hb/hosts.yml
 
 # Ignore so we won't commit these in the allowed dirctories.
 #.DS_Store
+*.DS_Store
