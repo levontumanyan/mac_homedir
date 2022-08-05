@@ -9,10 +9,15 @@
 !.gitignore
 !README.md
 
-# Add Jira.
-#!.jira.d/
-!.config/gh/
-!.config/gh/**
+# Add .config directory for github
+
+!.config
+.config/*
+
+!.config/hb
+.config/hb/*
+!.config/hb/config.yml
+!.config/hb/hosts.yml
 
 # Ignore so we won't commit these in the allowed dirctories.
 #.DS_Store
