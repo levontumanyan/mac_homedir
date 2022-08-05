@@ -11,7 +11,8 @@
 
 # Add Jira.
 #!.jira.d/
-#!.jira.d/**
+!.config/gh/
+!.config/gh/**
 
 # Ignore so we won't commit these in the allowed dirctories.
 #.DS_Store
