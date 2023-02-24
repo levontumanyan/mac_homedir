@@ -4,21 +4,20 @@
 
 # But not these files...
 !*.vimrc
-!*.vim
 !*.bashrc
 !*.zshrc
 !.gitignore
 !README.md
 
-# Add .config directory for github
+# Add cron scripts directory for github
+!/cron_scripts/
+cron_scripts/*
+!cron_scripts/backup_git.sh
 
-#!/.config/
-#.config/*
-
-#!.config/hb
-#.config/hb/*
-#!.config/hb/config.yml
-#!.config/hb/hosts.yml
+# Add my scripts directory for github
+!/my_scripts/
+my_scripts/*
+!my_scripts/script_template.sh
 
 # Ignore so we won't commit these in the allowed dirctories.
 #.DS_Store
